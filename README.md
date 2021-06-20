@@ -1,4 +1,4 @@
-Файл БД находится backup/dump.sql
-Конфиг - api/includes/config.php
+...Файл БД находится backup/dump.sql..
+...Конфиг - api/includes/config.php...
 Для входа в систему пароль test для всех юзеров, 
 можно заглянуть в базе данных, какой логин хранится в таблице api_users
