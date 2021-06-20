@@ -1,0 +1,154 @@
+.login-form{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form form{
+    width: 400px;
+}
+
+.login-input {
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3px;
+    border: 1px solid #808080;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.login-input img {
+    width: 24px;
+}
+
+.login-input input {
+    border-radius: 100px;
+    border: none;
+    background: #fff;
+}
+
+.login-input input:focus {
+    box-shadow: none;
+}
+
+.login-check {
+    margin: 0 auto;
+    color: #000;
+}
+
+.login-button {
+    width: 100%;
+    padding-left: 15px;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 35px;
+    border-radius: 100px;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e98c3b;
+}
+
+#response div {
+    border-radius: 100px;
+    background: #e98c3b;
+    color: white;   
+}
+
+.ptext1 {
+    color: #000;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.ptext2 {
+    color: #000;
+    font-size: 10px;
+}
+
+.ptext1, .ptext2 {
+    font-weight: bold;
+}
+
+.user-page-link{
+    border: none;
+}
+
+
+header {
+    height: 60px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-table{
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.user-line{
+    height:10px;
+    background:#e98c3b;
+}
+
+
+.user-row:nth-of-type(even) {
+    background-color: #ffffff;
+}
+.user-row:nth-of-type(odd) {
+    background-color: #ebebeb;
+}
+
+.user-row .col div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+}
+.user-pagination{
+    margin-top: 15px;
+    text-align: center;   
+}
+.user-pagination a {
+    color: #000;
+    margin-right: 12px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.user-pagination a:hover {
+    color: #000;
+}
+
+footer {
+    height: 50px;
+    background: #ebebeb;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    color: #000;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 2px solid #F1803E;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Test</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="login-form">
+    <div class="row">
+        <form id="login_form">
+          <img src="images/Logo.svg">
+          <p class="ptext1">Welcome to the Learning Magnament System</p>
+          <p class="ptext2">Please log in to continue</p>
+          <div class="login-input">
+            <img src="images/user.svg">
+            <input type="text" class="form-control" name="login" id="login" placeholder="Username" required>
+          </div>
+          <div class="login-input">
+            <img src="images/password.svg">
+            <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
+          </div>
+          <div class="form-group form-check login-check">
+            <input type="checkbox" class="form-check-input" id="remember">
+            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+          </div>
+          <button type="submit" class="login-button">Login in</button>
+
+          <div class="mt-2">
+            <diiv class="justify-content-center" id="response"></diiv>
+          </div>
+
+        </form>    
+      </div> 
+  </div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/jQuery/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+<script type="text/javascript" src="js/serialize.js"></script>
+</html>
